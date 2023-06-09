@@ -1,0 +1,53 @@
+.footer-container{
+    padding: 2vh 5vw 10vh 5vw;
+    background-color: bisque;
+}
+
+.footer-first-div{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 12vw;
+}
+
+.address > p{
+    margin-top: 8px;
+    color: gray;
+}
+
+.main-logo{
+    width: 7vw;
+    aspect-ratio: 1;
+    margin-bottom: 7vh;
+}
+
+.other-links > h4{
+    margin-bottom: 35px;
+}
+
+.other-links > p{
+    margin-bottom: 15px;
+    color: gray;
+
+}
+
+.other-links > p:hover{
+    color: rgb(249, 44, 78);
+    cursor: pointer;
+}
+
+.social{
+    margin-top: 15vh;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social > span{
+    font-weight: 700;
+}
+
+.social > span:hover{
+    color: rgb(249, 44, 78);
+    cursor: pointer;
+}

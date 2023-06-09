@@ -1,0 +1,41 @@
+.category-container{
+    padding: 10vh 3vw;
+}
+
+.category-name{
+    font-size:35px;
+}
+
+.category-name > span{
+    font-weight: 650;
+}
+
+.cards-div{
+    padding: 50px 3vw;
+    display: flex;
+    gap: 4.5vw;
+    /* background-color: yellow; */
+    overflow-y: scroll;
+}
+
+.category-card{
+    /* width: 20vw; */
+    /* background-color: brown; */
+    text-align: center;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.category-card:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s ease-in-out;
+}
+
+.category-card > p{
+    padding: 10px 0px;
+}
+
+.category-card > img{
+    width: 18vw;
+    aspect-ratio: 1;
+}

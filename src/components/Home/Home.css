@@ -1,0 +1,76 @@
+.home-container{
+    padding-top: 20vh;
+}
+
+
+.search-div{
+    background-image: url('https://www.sgs.com/-/media/sgscorp/images/corporate/sustainability-at-sgs/urban-buildings-in-guangzhou-china.cdn.en.1.jpg');
+    background-size: cover;
+    padding: 10vh 10vw;
+}
+
+.search-input-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.search-input-div > input{
+    padding: 15px 20px;
+    width: 30vw;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(46, 46, 46, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.search-input-div > input:focus{
+    outline: none;
+}
+
+.search-input-div > button{
+    padding: 16.5px;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(247, 89, 116);
+    cursor: pointer;
+}
+
+.headings > h1{
+    font-size: 75px;
+    animation: heading1arrival 2.5s ;
+}
+
+.second-heading{
+    font-size: 55px;
+    font-weight: 600;
+    animation: heading1arrival 3.5s ;
+
+}
+
+.third-heading{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    animation: heading1arrival 4.5s ;
+}
+
+.category-section > div:nth-child(2n){
+    background-image: url('../../assets/images/backgroundimage1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes heading1arrival {
+    0%{
+        margin-left: 100vw;
+    }
+
+    100%{
+        margin-left: 0px;
+    }
+}
